@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base.astro
 ---
 
 ## Plugin Test Page

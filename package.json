@@ -4,6 +4,7 @@
   "description": "Description of plugin",
   "homepage": "",
   "main": ".eleventy.js",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
@@ -28,6 +29,9 @@
     "url": "https://github.com/username/repo-name/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "@astrojs/compiler": "^2.10.3"
   }
 }
